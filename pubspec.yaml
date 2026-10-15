@@ -1,0 +1,22 @@
+name: intent
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2       # Wajib ada untuk menyimpan data biodata di memori
+  image_picker: ^1.1.2   # Wajib ada untuk fitur ambil foto avatar dari galeri HP
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
